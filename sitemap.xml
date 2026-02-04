@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Ana Sayfa -->
+  <url>
+    <loc>https://cottokits.com/</loc>
+    <lastmod>2024-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://cottokits.com/images/logo.png</image:loc>
+      <image:title>CottoKits Logo</image:title>
+      <image:caption>CottoKits - small sets / big learnies</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Ürünler Sayfası -->
+  <url>
+    <loc>https://cottokits.com/products.html</loc>
+    <lastmod>2024-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://cottokits.com/images/products/mekke.jpg</image:loc>
+      <image:title>Mekke Şehri'ni Tanıyorum Seti</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cottokits.com/images/products/medine.jpg</image:loc>
+      <image:title>Medine Şehri'ni Tanıyorum Seti</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cottokits.com/images/products/ramazan.jpg</image:loc>
+      <image:title>Ramazan Görevlerim Seti</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Hakkımızda Sayfası -->
+  <url>
+    <loc>https://cottokits.com/about.html</loc>
+    <lastmod>2024-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cottokits.com/images/logo.png</image:loc>
+      <image:title>CottoKits Hakkında</image:title>
+    </image:image>
+  </url>
+  
+</urlset>

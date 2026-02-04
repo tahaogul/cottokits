@@ -1,0 +1,160 @@
+{
+  "products": [
+    {
+      "id": "mekke-sehrini-taniyorum",
+      "name": "Mekke Şehri'ni Tanıyorum!",
+      "shortName": "Mekke Seti",
+      "description": "Çocuklara Mekke Şehri'ni ve bizim için önemini eğlenceli ve öğretici bir yolla anlatmak için tasarlandı. Hac ve Umre ibadetlerinizde yanınızda götürebilir, ibadet yerlerini/mekanlarını ziyaret ederken çocukların farkındalığının artmasını ve keyifli vakit geçirerek öğrenmelerini sağlayabilirsiniz.",
+      "image": "images/products/mekke.jpg",
+      "badge": "En Popüler",
+      "category": "Eğitim Setleri",
+      "contents": [
+        "3D Harita - %100 huş ağacından boyanabilir ahşap harita (30 cm)",
+        "Tak & Çıkar boyanabilir ahşap mekanlar (7 adet)",
+        "Eğlen & Öğren mekanlar hakkında bilgi kartları",
+        "Hayal et & Boya mum boyalar (6 renk)"
+      ],
+      "benefits": [
+        "Çocuklara ibadet bilinci ve manevi değerler vermeye yardımcı olur",
+        "Çocukların el-göz koordinasyonu ve motor becerilerinin gelişimine katkı sağlar",
+        "Mekke Şehri'nin önemli yerleri ve umre/hac ibadetlerinin temel aşamaları (Kabe, tavaf, Arafat gibi) eğlenceli şekilde öğretilir"
+      ],
+      "targetAudience": "Hac/umre ibadetleri için seyahatler, evde bireysel kullanım, okul öncesi, ilkokul, yaz kursları ve dini eğitim merkezleri için harika bir materyal"
+    },
+    {
+      "id": "medine-sehrini-taniyorum",
+      "name": "Medine Şehri'ni Tanıyorum!",
+      "shortName": "Medine Seti",
+      "description": "Çocuklara Medine Şehri'ni ve bizim için önemini eğlenceli ve öğretici bir yolla anlatmak için tasarlandı. Hac ve Umre ibadetlerinizde yanınızda götürebilir, ibadet yerlerini/mekanlarını ziyaret ederken çocukların farkındalığının artmasını ve keyifli vakit geçirerek öğrenmelerini sağlayabilirsiniz.",
+      "image": "images/products/medine.jpg",
+      "badge": null,
+      "category": "Eğitim Setleri",
+      "contents": [
+        "3D Harita - %100 huş ağacından boyanabilir ahşap harita (30 cm)",
+        "Tak & Çıkar boyanabilir ahşap mekanlar (8 adet)",
+        "Eğlen & Öğren mekanlar hakkında bilgi kartları",
+        "Hayal et & Boya mum boyalar (6 renk)"
+      ],
+      "benefits": [
+        "Çocuklara ibadet bilinci ve manevi değerler vermeye yardımcı olur",
+        "Çocukların el-göz koordinasyonu ve motor becerilerinin gelişimine katkı sağlar",
+        "Medine Şehri'nin önemli yerleri ve umre/hac ibadetlerinin temel aşamaları eğlenceli şekilde öğretilir"
+      ],
+      "targetAudience": "Hac/umre ibadetleri için seyahatler, evde bireysel kullanım, okul öncesi, ilkokul, yaz kursları ve dini eğitim merkezleri için harika bir materyal"
+    },
+    {
+      "id": "ramazan-gorevlerim",
+      "name": "Ramazan Görevlerim!",
+      "shortName": "Ramazan Seti",
+      "description": "Çocuklara Ramazanı ve bizim için önemini eğlenceli ve öğretici bir yolla anlatmak için tasarlandı. Çocuklar hem keyifle vakit geçirecek hem de öğrenecek.",
+      "image": "images/products/ramazan.jpg",
+      "badge": "Yeni",
+      "category": "Ramazan Özel",
+      "contents": [
+        "Ahşap Görev Stantı - %100 huş ağacından boyanabilir ahşap stant ve ahşap ayaklar (29x29 cm)",
+        "Tak & Çıkar boyanabilir ahşap mekanlar (8 adet)",
+        "Eğlen & Öğren - 30 farklı Hadis-i Şerif ile hazırlanmış eğlenceli görevlerin yer aldığı mini kartlar",
+        "Hayal et & Boya mum boyalar (6 renk)"
+      ],
+      "benefits": [
+        "30 farklı sahih Hadis-i Şerif ile hazırlanmış eğlenceli görevlerle çocuklar hem keyifle vakit geçirecek hem de öğrenecek",
+        "Çocuklara Ramazan bilinci ve manevi değerler verilebilir",
+        "Çocukların el-göz koordinasyonu ve motor becerileri gelişir"
+      ],
+      "targetAudience": "Evde bireysel kullanım, okul öncesi, ilkokul, yaz kursları ve dini eğitim merkezleri için harika bir materyal"
+    },
+    {
+      "id": "kuran-okuyorum",
+      "name": "Kur'an Okuyorum!",
+      "shortName": "Kur'an Seti",
+      "description": "Çocukların Kur'an okuma merasimlerinde ve Bed-i Besmele törenlerinde kullanılabilir. Çocuklar hazırlarken hem keyifle vakit geçirecek hem de tören hazırlıklarında ailelerine eşlik edebilecek.",
+      "image": "images/products/kuran.jpg",
+      "badge": null,
+      "category": "Özel Günler",
+      "contents": [
+        "Ahşap Figürler - %100 huş ağacından 10 adet farklı boyanabilir ahşap figür",
+        "Mini Ahşap Kur'an Okuyorum Stantı ve ayakları",
+        "Süsleme İpi ve Ahşap Boncuklar",
+        "Hayal et & Boya mum boyalar (6 renk)"
+      ],
+      "benefits": [
+        "Kur'an okuma merasimleri ve Bed-i Besmele törenlerinde kullanılabilir",
+        "Çocuklar tören hazırlıklarına ailelerine eşlik ederek katılabilir",
+        "Keyifli vakit geçirirken el becerilerini geliştirir"
+      ],
+      "targetAudience": "Evde bireysel kullanım, okul öncesi, ilkokul, yaz kursları ve dini eğitim merkezleri için harika bir materyal"
+    },
+    {
+      "id": "ilk-orucumu-tutuyorum",
+      "name": "İlk Orucumu Tutuyorum!",
+      "shortName": "İlk Oruç Seti",
+      "description": "Çocuklara Ramazanı, orucu ve bizim için önemini eğlenceli ve sevdiren bir yolla anlatmak için tasarlandı. İlk oruçlarını tuttukları gün çocuklar keyifle vakit geçirecek.",
+      "image": "images/products/ilk-oruc.jpg",
+      "badge": null,
+      "category": "Ramazan Özel",
+      "contents": [
+        "Ahşap Figürler - %100 huş ağacından 10 adet farklı boyanabilir ahşap figür",
+        "Mini Ahşap Kur'an Okuyorum Stantı ve ayakları",
+        "Süsleme İpi ve Ahşap Boncuklar",
+        "Hayal et & Boya mum boyalar (6 renk)"
+      ],
+      "benefits": [
+        "İlk oruç deneyimini özel ve unutulmaz kılar",
+        "Çocuklara Ramazan ve oruç bilinci aşılar",
+        "Keyifli vakit geçirirken el becerilerini geliştirir"
+      ],
+      "targetAudience": "Evde bireysel kullanım, okul öncesi, ilkokul, yaz kursları ve dini eğitim merkezleri için harika bir materyal"
+    },
+    {
+      "id": "super-anahtarligim-kiz",
+      "name": "Süper Anahtarlığım! (Kız)",
+      "shortName": "Anahtarlık Kız",
+      "description": "Küçük kız çocukları için tasarlanmış eğlenceli ve eğitici kendin yap anahtarlık setidir. İslami değerleri öğrenmeyi keyifli bir hale getirmeyi amaçlar. Kendi el emekleri ile hazırladıkları, namazın ve Kur'an-ı Kerim'in önemini hatırlatan bu anahtarlığı çocuklar çantalarında ya da kalemliklerinde kullanabilirler.",
+      "image": "images/products/anahtar-kiz.jpg",
+      "badge": "Kızlar İçin",
+      "category": "Anahtarlık Setleri",
+      "contents": [
+        "Ahşap Figürler - %100 huş ağacından 3 adet farklı boyanabilir ahşap figür",
+        "Mini Anahtarlık Aparatı",
+        "Ahşap Boncuklar & İp",
+        "Hayal et & Boya mum boyalar (6 renk)"
+      ],
+      "benefits": [
+        "İslami değerleri öğrenmeyi keyifli bir hale getirir",
+        "Namazın ve Kur'an-ı Kerim'in önemini hatırlatır",
+        "Çocukların el becerilerini geliştirir"
+      ],
+      "targetAudience": "Evde bireysel kullanım, okul öncesi, ilkokul, yaz kursları ve dini eğitim merkezleri için harika bir materyal"
+    },
+    {
+      "id": "super-anahtarligim-erkek",
+      "name": "Süper Anahtarlığım! (Erkek)",
+      "shortName": "Anahtarlık Erkek",
+      "description": "Küçük erkek çocukları için tasarlanmış eğlenceli ve eğitici kendin yap anahtarlık setidir. İslami değerleri öğrenmeyi keyifli bir hale getirmeyi amaçlar. Kendi el emekleri ile hazırladıkları, namazın ve Kur'an-ı Kerim'in önemini hatırlatan bu anahtarlığı çocuklar çantalarında ya da kalemliklerinde kullanabilirler.",
+      "image": "images/products/anahtar-erkek.jpg",
+      "badge": "Erkekler İçin",
+      "category": "Anahtarlık Setleri",
+      "contents": [
+        "Ahşap Figürler - %100 huş ağacından 3 adet farklı boyanabilir ahşap figür",
+        "Mini Anahtarlık Aparatı",
+        "Ahşap Boncuklar & İp",
+        "Hayal et & Boya mum boyalar (6 renk)"
+      ],
+      "benefits": [
+        "İslami değerleri öğrenmeyi keyifli bir hale getirir",
+        "Namazın ve Kur'an-ı Kerim'in önemini hatırlatır",
+        "Çocukların el becerilerini geliştirir"
+      ],
+      "targetAudience": "Evde bireysel kullanım, okul öncesi, ilkokul, yaz kursları ve dini eğitim merkezleri için harika bir materyal"
+    }
+  ],
+  "brand": {
+    "name": "CottoKits",
+    "tagline": "small sets / big learnies",
+    "motto": "Eğlenceli ve faydalı içeriklerle çocularımızın İslam sevgisini ve manevi değerlerini pekiştirmeyi amaçlıyoruz.",
+    "whatsapp": "+905301266396",
+    "email": "cottokits@gmail.com",
+    "location": "İstanbul/Maltepe",
+    "fscNotice": "Ürünlerimiz FSC sertifikalı doğal huş ahşaptan üretilmektedir. Ahşap ürünler doğal yapıları gereği renk ve doku açısından küçük farklılıklar gösterebilir. Bu durum, el işçiliği ve doğal malzeme yapısının bir sonucu olup her ürünü kendine özgü kılar."
+  }
+}

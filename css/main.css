@@ -1,0 +1,28 @@
+/* ========================================
+   Main CSS - Import All Styles
+   CottoKits Design System
+   ======================================== */
+
+/* Base Styles */
+@import url('./base/variables.css');
+@import url('./base/reset.css');
+@import url('./base/typography.css');
+
+/* Component Styles */
+@import url('./components/buttons.css');
+@import url('./components/cards.css');
+@import url('./components/header.css');
+@import url('./components/footer.css');
+@import url('./components/hero.css');
+@import url('./components/whatsapp.css');
+@import url('./components/modal.css');
+
+/* Page Styles */
+@import url('./pages/home.css');
+@import url('./pages/products.css');
+@import url('./pages/product-detail.css');
+@import url('./pages/about.css');
+
+/* Utility Styles */
+@import url('./utils/animations.css');
+@import url('./utils/responsive.css');
