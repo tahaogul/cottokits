@@ -107,3 +107,6 @@ window.Navigation = {
     open: openMenu,
     close: closeMenu
 };
+
+// Global function for onclick usage
+window.closeNav = closeMenu;

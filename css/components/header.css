@@ -44,12 +44,13 @@
     transform: scale(1.02);
 }
 
-.header__logo img {
-    width: 48px;
+.header__logo img,
+.header__logo-img {
+    width: auto;
     height: 48px;
+    max-width: 150px;
     object-fit: contain;
-    border-radius: var(--radius-md);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Transparent - no border, no shadow */
 }
 
 .header__brand {
@@ -229,13 +230,92 @@
 }
 
 /* Nav Header */
-.nav__header {
-    padding: var(--space-6);
-    background: linear-gradient(135deg, var(--color-primary) 0%, #3a6666 100%);
-    color: white;
+.nav__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: var(--space-8);
+    gap: var(--space-8);
+}
+
+.nav__logo-wrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.nav__logo-img {
+    width: 200px;
+    max-width: 80%;
+    height: auto;
+}
+
+.nav__actions {
+    display: flex;
     gap: var(--space-4);
+    justify-content: center;
+}
+
+.nav__action-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.nav__action-btn--trendyol {
+    background: linear-gradient(135deg, #FF6000, #FF8C00);
+    color: white;
+}
+
+.nav__action-btn--whatsapp {
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    color: white;
+}
+
+.nav__action-btn--whatsapp svg {
+    width: 28px;
+    height: 28px;
+}
+
+.nav__action-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.nav__section-links {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    align-items: center;
+}
+
+.nav__section-link {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-primary);
+    text-decoration: none;
+    padding: var(--space-2) var(--space-4);
+    border-radius: var(--radius-full);
+    transition: all 0.3s ease;
+}
+
+.nav__section-link:hover {
+    background: rgba(74, 124, 124, 0.1);
+}
+
+/* Legacy nav header styles - keeping for compatibility */
+.nav__header {
+    display: none;
 }
 
 .nav__header-logo {

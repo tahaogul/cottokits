@@ -182,16 +182,22 @@
     letter-spacing: 0.5px;
 }
 
-/* Order Button - Subtle */
+/* Order Button Container */
+.product-card__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    margin-top: var(--space-3);
+}
+
+/* Order Button - Base */
 .product-card__order-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: var(--space-2);
-    margin-top: var(--space-3);
     padding: var(--space-2) var(--space-4);
-    background: #1a3535;
-    color: white;
     border: none;
     border-radius: var(--radius-full);
     font-size: var(--font-size-xs);
@@ -203,14 +209,40 @@
     text-decoration: none;
 }
 
-.product-card__order-btn:hover {
-    background: #2d5858;
-    transform: translateY(-1px);
+/* Trendyol Button - Orange */
+.product-card__order-btn--trendyol {
+    flex: 1;
+    background: linear-gradient(135deg, #FF6B35, #F7931E);
+    color: white;
+    box-shadow: 0 2px 8px rgba(255, 107, 53, 0.3);
 }
 
-.product-card__order-btn svg {
-    width: 14px;
-    height: 14px;
+.product-card__order-btn--trendyol:hover {
+    background: linear-gradient(135deg, #FF8B5C, #FF6B35);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.4);
+}
+
+/* WhatsApp Small Button - Green Circle */
+.product-card__order-btn--whatsapp {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    flex-shrink: 0;
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    color: white;
+    box-shadow: 0 2px 8px rgba(37, 211, 102, 0.3);
+}
+
+.product-card__order-btn--whatsapp:hover {
+    background: linear-gradient(135deg, #2BE573, #25D366);
+    transform: translateY(-1px) scale(1.05);
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+}
+
+.product-card__order-btn--whatsapp svg {
+    width: 18px;
+    height: 18px;
 }
 
 /* CTA Section - Clean Bottom */

@@ -254,29 +254,30 @@
 
 /* Actions */
 .product-modal__actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
     padding-top: var(--space-4);
     border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .product-modal__order-btn {
-    width: 100%;
+    flex: 1;
     padding: var(--space-4);
     font-size: var(--font-size-base);
     font-weight: var(--font-weight-bold);
     border-radius: var(--radius-lg);
-    animation: pulse-glow 2s infinite;
 }
 
-@keyframes pulse-glow {
+.product-modal__actions .btn-whatsapp-small {
+    flex-shrink: 0;
+    width: 52px;
+    height: 52px;
+}
 
-    0%,
-    100% {
-        box-shadow: 0 4px 20px rgba(37, 211, 102, 0.3);
-    }
-
-    50% {
-        box-shadow: 0 4px 30px rgba(37, 211, 102, 0.5);
-    }
+.product-modal__actions .btn-whatsapp-small svg {
+    width: 28px;
+    height: 28px;
 }
 
 /* Scrollbar Styling */

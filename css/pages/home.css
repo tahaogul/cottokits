@@ -48,7 +48,7 @@
 
 /* Products Grid on Home */
 .featured-products .products-grid {
-    max-width: 900px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -168,8 +168,8 @@
 }
 
 .testimonial__quote::before {
-    content: "" ";
- font-size: 4rem;
+    content: '"';
+    font-size: 4rem;
     position: absolute;
     top: -20px;
     left: -20px;

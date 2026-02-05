@@ -166,3 +166,46 @@
     cursor: not-allowed;
     pointer-events: none;
 }
+
+/* Trendyol Button - Orange/Coral */
+.btn-trendyol {
+    background: linear-gradient(135deg, #FF6B35, #F7931E);
+    color: var(--color-white);
+    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+    padding: var(--space-4) var(--space-8);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+}
+
+.btn-trendyol:hover {
+    background: linear-gradient(135deg, #FF8B5C, #FF6B35);
+    box-shadow: 0 6px 20px rgba(255, 107, 53, 0.45);
+    transform: translateY(-3px);
+}
+
+/* Small WhatsApp Button - Icon Only */
+.btn-whatsapp-small {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, var(--color-whatsapp), var(--color-whatsapp-dark));
+    color: var(--color-white);
+    border-radius: var(--radius-full);
+    box-shadow: 0 3px 12px rgba(37, 211, 102, 0.3);
+    transition: all var(--transition-normal);
+    padding: 0;
+    border: none;
+}
+
+.btn-whatsapp-small:hover {
+    background: linear-gradient(135deg, #2BE573, var(--color-whatsapp));
+    box-shadow: 0 5px 18px rgba(37, 211, 102, 0.45);
+    transform: translateY(-2px) scale(1.05);
+}
+
+.btn-whatsapp-small svg {
+    width: 24px;
+    height: 24px;
+}
